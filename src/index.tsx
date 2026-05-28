@@ -1,4 +1,4 @@
-```tsx
+```tsx id="k7m2sa"
 export default function TranquilEaseWebsite() {
   return (
     <div>
