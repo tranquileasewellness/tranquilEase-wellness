@@ -1,11 +1,26 @@
-```jsx id="t4x0vp"
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import TranquilEaseWebsite from './index.tsx'
+```jsx id="v8n3ke"
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+function App() {
+  return (
+    <div style={{
+      background: "black",
+      color: "white",
+      minHeight: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      fontSize: "40px"
+    }}>
+      TranquilEase Wellness
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <TranquilEaseWebsite />
+    <App />
   </React.StrictMode>
-)
+);
 ```
