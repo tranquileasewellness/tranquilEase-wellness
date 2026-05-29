@@ -1,28 +1,23 @@
-```jsx id="h3v0qz"
+```jsx id="m7a2pq"
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-function App() {
-  return (
-    <div
-      style={{
-        background: "black",
-        color: "white",
-        minHeight: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontSize: "40px",
-      }}
-    >
-      TranquilEase Wellness
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+root.render(
+  <div
+    style={{
+      backgroundColor: "black",
+      color: "white",
+      minHeight: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      fontSize: "40px",
+      fontFamily: "Arial"
+    }}
+  >
+    TranquilEase Wellness
+  </div>
 );
 ```
