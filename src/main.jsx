@@ -1,4 +1,4 @@
-```jsx id="m7a2pq"
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -20,4 +20,3 @@ root.render(
     TranquilEase Wellness
   </div>
 );
-```
