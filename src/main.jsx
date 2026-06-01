@@ -1,4 +1,3 @@
-```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -14,7 +13,7 @@ root.render(
       justifyContent: "center",
       alignItems: "center",
       fontSize: "40px",
-      fontFamily: "Arial"
+      fontFamily: "Arial",
     }}
   >
     TranquilEase Wellness
